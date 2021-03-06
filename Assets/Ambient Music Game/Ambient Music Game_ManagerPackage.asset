@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4a24d0e4a28423fb3249b923d7e418, type: 3}
+  m_Name: Ambient Music Game_ManagerPackage
+  m_EditorClassIdentifier: 
+  actionsManager: {fileID: 11400000, guid: dfbd64745b4734d8e878e6032b6a8a14, type: 2}
+  sceneManager: {fileID: 11400000, guid: 97af8a25227c8432ea34d9084b621824, type: 2}
+  settingsManager: {fileID: 11400000, guid: 42b88946fdf464ef8bf5cc15938bcbb9, type: 2}
+  inventoryManager: {fileID: 11400000, guid: 1068367a807be4a5f94a3c54ca6dcc73, type: 2}
+  variablesManager: {fileID: 11400000, guid: 73112b80ea24f466fb42fd1880b18aca, type: 2}
+  speechManager: {fileID: 11400000, guid: dbb8c908ba1ba40d1aa3ea6049482ea9, type: 2}
+  cursorManager: {fileID: 11400000, guid: bdbdd8c64a6a748fda65e4dbf3fcda25, type: 2}
+  menuManager: {fileID: 11400000, guid: a4cbb108f2fc9403a84a249a26d91ba7, type: 2}
