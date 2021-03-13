@@ -70,7 +70,7 @@ MonoBehaviour:
   - label: Gardener's Keycard
     id: 1
     altLabel: 
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
