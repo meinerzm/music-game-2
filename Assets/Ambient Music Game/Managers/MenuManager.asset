@@ -3861,7 +3861,7 @@ MonoBehaviour:
   - {fileID: 6461304169967555143}
   - {fileID: -3539205577013039141}
   globalDepth: 0
-  pauseTexture: {fileID: 0}
+  pauseTexture: {fileID: 2800000, guid: afcba843fd9e2de46970088ea197d604, type: 3}
   scaleTextEffects: 0
   keyboardControlWhenPaused: 0
   keyboardControlWhenCutscene: 0
