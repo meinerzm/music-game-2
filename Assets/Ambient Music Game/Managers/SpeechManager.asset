@@ -19,15 +19,15 @@ MonoBehaviour:
   narrationTextScrollCLip: {fileID: 0}
   playScrollAudioEveryCharacter: 1
   waitTimeOffset: 0
-  displayForever: 0
-  displayNarrationForever: 0
+  displayForever: 1
+  displayNarrationForever: 1
   playAnimationForever: 1
   canSkipWithMouseClicks: 1
   minimumDisplayTime: 1
   screenTimeFactor: 0.1
   allowSpeechSkipping: 0
-  allowGameplaySpeechSkipping: 0
-  skipThresholdTime: 0
+  allowGameplaySpeechSkipping: 1
+  skipThresholdTime: 1
   endScrollBeforeSkip: 0
   scrollingTextFactorsLength: 0
   syncSubtitlesToAudio: 0
