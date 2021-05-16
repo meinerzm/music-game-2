@@ -22,9 +22,6 @@ GameObject:
   - component: {fileID: 33364751517101954}
   - component: {fileID: 23554745839666270}
   - component: {fileID: 95691075693530336}
-  - component: {fileID: 64727973271644856}
-  - component: {fileID: 64554037334514996}
-  - component: {fileID: 64644845184378222}
   m_Layer: 0
   m_Name: SM_Bld_Wall_Corner_Pillar_Wide_01
   m_TagString: Untagged
@@ -84,48 +81,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1650089519345120}
   m_Mesh: {fileID: 4300000, guid: 7960c160eb486054db09d7d19289e19a, type: 3}
---- !u!64 &64554037334514996
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1650089519345120}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43553749108703368, guid: b48d1f86f38a4664d9bdb27947e1efcb, type: 2}
---- !u!64 &64644845184378222
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1650089519345120}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43094609936898512, guid: b48d1f86f38a4664d9bdb27947e1efcb, type: 2}
---- !u!64 &64727973271644856
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1650089519345120}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43720183604300556, guid: b48d1f86f38a4664d9bdb27947e1efcb, type: 2}
 --- !u!95 &95691075693530336
 Animator:
   serializedVersion: 3

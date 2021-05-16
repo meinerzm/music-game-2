@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4445109134759210}
   - component: {fileID: 33468272175669718}
   - component: {fileID: 23542004244349396}
-  - component: {fileID: 64025985081272620}
   m_Layer: 0
   m_Name: SM_Prop_Sign_Peaches_01
   m_TagString: Untagged
@@ -51,7 +50,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -67,7 +65,6 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -83,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1812189726530214}
   m_Mesh: {fileID: 4300000, guid: 2ddbae9ab973740429f88af7d7bae6eb, type: 3}
---- !u!64 &64025985081272620
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1812189726530214}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43352752911036222, guid: b7b32c99009d5d7479e5732de2e108ef, type: 2}

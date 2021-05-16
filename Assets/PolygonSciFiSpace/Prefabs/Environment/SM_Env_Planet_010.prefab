@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4716339026755804}
   - component: {fileID: 33508593812610276}
   - component: {fileID: 23788033475519540}
-  - component: {fileID: 64271676335093136}
   m_Layer: 0
   m_Name: SM_Env_Planet_010
   m_TagString: Untagged
@@ -80,18 +79,4 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1446605993511392}
-  m_Mesh: {fileID: 4300000, guid: 14c298836becb8c47a8f3e02c47e3801, type: 3}
---- !u!64 &64271676335093136
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1446605993511392}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 14c298836becb8c47a8f3e02c47e3801, type: 3}

@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4920349071074144}
   - component: {fileID: 33480080355823194}
   - component: {fileID: 23232398280843638}
-  - component: {fileID: 64651433345914390}
   m_Layer: 0
   m_Name: SM_Bld_Bridge_Walls_01
   m_TagString: Untagged
@@ -151,17 +150,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1928388072527048}
   m_Mesh: {fileID: 4300002, guid: 21c222af3ed37cd4b9e7f9b3671ca428, type: 3}
---- !u!64 &64651433345914390
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1899809167210008}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43939824165710212, guid: 994609fc91555e34e9eaaccac55a1073, type: 2}

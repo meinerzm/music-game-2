@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4760527597374216}
   - component: {fileID: 33664678795239916}
   - component: {fileID: 23087854598316718}
-  - component: {fileID: 64368379547996350}
   m_Layer: 0
   m_Name: SM_Env_Debris_Pipe_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1117096321569494}
   m_Mesh: {fileID: 4300000, guid: 7b23d056539021d499bfa48b41baafc2, type: 3}
---- !u!64 &64368379547996350
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1117096321569494}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43731064739784986, guid: f27255648becb33448e771a323c095f8, type: 2}

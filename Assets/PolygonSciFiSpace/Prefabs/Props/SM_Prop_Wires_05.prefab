@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4893258697095752}
   - component: {fileID: 33815100592843298}
   - component: {fileID: 23414385962730358}
-  - component: {fileID: 64287885396885314}
   m_Layer: 0
   m_Name: SM_Prop_Wires_05
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1632604563246580}
   m_Mesh: {fileID: 4300000, guid: ed7d20769644d424f8b0eff3f0c53a6e, type: 3}
---- !u!64 &64287885396885314
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1632604563246580}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43167642055514204, guid: 59bed015965338f4592c3e8bcea73aab, type: 2}

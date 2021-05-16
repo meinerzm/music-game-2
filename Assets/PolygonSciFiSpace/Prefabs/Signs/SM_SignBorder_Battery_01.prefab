@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4889703875172048}
   - component: {fileID: 33158915683750098}
   - component: {fileID: 23369821731128654}
-  - component: {fileID: 65797246421026380}
   m_Layer: 0
   m_Name: SM_SignBorder_Battery_01
   m_TagString: Untagged
@@ -81,15 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1556259757420600}
   m_Mesh: {fileID: 4300000, guid: 228e4efcdda04dd4cb16b950a93cb59f, type: 3}
---- !u!65 &65797246421026380
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1556259757420600}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.1675289, y: 1.1675289, z: 0.14419124}
-  m_Center: {x: 0, y: 0, z: -0.000000011175871}

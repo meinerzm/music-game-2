@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4407118648734358}
   - component: {fileID: 33814775255407228}
   - component: {fileID: 23031606427234490}
-  - component: {fileID: 64946382001842928}
   m_Layer: 0
   m_Name: SM_Prop_EnergyPort_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1995179450595806}
   m_Mesh: {fileID: 4300000, guid: 7a5b535ee3aa9a146ba4cefa2c1198dd, type: 3}
---- !u!64 &64946382001842928
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1995179450595806}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43586394501079338, guid: bb37f5c6a2398be44bfbb2c05872b1bb, type: 2}

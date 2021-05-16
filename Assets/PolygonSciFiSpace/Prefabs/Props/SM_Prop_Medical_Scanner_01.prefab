@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4637364390914544}
   - component: {fileID: 33705346528146120}
   - component: {fileID: 23498337168046824}
-  - component: {fileID: 64444808686606264}
   m_Layer: 0
   m_Name: SM_Prop_Medical_Scanner_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1301550200216578}
   m_Mesh: {fileID: 4300000, guid: 6855d509715aa0a4e96fc3771b6b411e, type: 3}
---- !u!64 &64444808686606264
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1301550200216578}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43804800620452852, guid: 7c912e29b7fb9c74d9819f1766d759f3, type: 2}

@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4781072823400612}
   - component: {fileID: 33936166394903764}
   - component: {fileID: 23358252873120748}
-  - component: {fileID: 64648440265730156}
   m_Layer: 0
   m_Name: SM_Prop_Chilli_01_S
   m_TagString: Untagged
@@ -51,7 +50,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -67,7 +65,6 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -83,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1902140391295820}
   m_Mesh: {fileID: 4300000, guid: f54c57c9519d76c43bf59d11814ad0b5, type: 3}
---- !u!64 &64648440265730156
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1902140391295820}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43857019484523436, guid: ca5441f64b4031145a497117868cc766, type: 2}

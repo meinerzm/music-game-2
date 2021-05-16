@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4857723237303430}
   - component: {fileID: 33667171053721528}
   - component: {fileID: 23337803991598852}
-  - component: {fileID: 64688562326341534}
   m_Layer: 0
   m_Name: SM_Prop_Ladder_Handles_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1931395502519194}
   m_Mesh: {fileID: 4300000, guid: 1c90f29b292806b43912dc63809e8e56, type: 3}
---- !u!64 &64688562326341534
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1931395502519194}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43096282789192962, guid: 4f034cce80131b0478a7ba547303b393, type: 2}

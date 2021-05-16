@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4656132707234860}
   - component: {fileID: 33821239890311004}
   - component: {fileID: 23128053750206412}
-  - component: {fileID: 64526317574756976}
   m_Layer: 0
   m_Name: SM_Bld_Bridge_Rear_Wall_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1737039256279498}
   m_Mesh: {fileID: 4300000, guid: 48a27d662022d2c489416be31c5854c7, type: 3}
---- !u!64 &64526317574756976
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1737039256279498}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43176325601647590, guid: 0a1c3635878276842a1b4fe35e7f7f9b, type: 2}

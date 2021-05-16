@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4552791840064620}
   - component: {fileID: 33057262343104484}
   - component: {fileID: 23326297064241404}
-  - component: {fileID: 64839053812705698}
   m_Layer: 0
   m_Name: SM_Prop_Tool_Scythe_01
   m_TagString: Untagged
@@ -51,7 +50,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -67,7 +65,6 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -83,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1547028232771016}
   m_Mesh: {fileID: 4300000, guid: defb3cd6a9a614a42899bc1fa16d51c1, type: 3}
---- !u!64 &64839053812705698
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1547028232771016}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43610028939821184, guid: f02c72b195363fb4bab065a3c9bdcf1f, type: 2}

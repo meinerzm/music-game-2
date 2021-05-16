@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4369295241709898}
   - component: {fileID: 33303661032128558}
   - component: {fileID: 23693884513162856}
-  - component: {fileID: 64662735034604074}
   m_Layer: 0
   m_Name: SM_Prop_Turret_Laser_Barrel_03
   m_TagString: Untagged
@@ -39,7 +38,6 @@ GameObject:
   - component: {fileID: 4944367671639308}
   - component: {fileID: 33012323785171742}
   - component: {fileID: 23493571640216724}
-  - component: {fileID: 64299247035394868}
   m_Layer: 0
   m_Name: SM_Prop_Turret_Base_Single_06
   m_TagString: Untagged
@@ -57,7 +55,6 @@ GameObject:
   - component: {fileID: 4854584749082738}
   - component: {fileID: 33476383397912522}
   - component: {fileID: 23080852375254604}
-  - component: {fileID: 64000289088114074}
   m_Layer: 0
   m_Name: SM_Prop_Turret_Laser_Base_03
   m_TagString: Untagged
@@ -98,8 +95,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1668988907935880}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4854584749082738}
@@ -223,45 +220,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1886676044271154}
   m_Mesh: {fileID: 4300002, guid: a4fdf228093fff1468792039206ea033, type: 3}
---- !u!64 &64000289088114074
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1886676044271154}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43343395029108396, guid: e1bfc44eb12b2d74eb01fac7c540cd89, type: 2}
---- !u!64 &64299247035394868
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1668988907935880}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43043793431104772, guid: b9b845662f4ccba49b124cad8d2bbd99, type: 2}
---- !u!64 &64662735034604074
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1292462889622022}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43097878910173654, guid: 73296c51aacba7144bfd0d41abbd72a4, type: 2}

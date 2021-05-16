@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4333038575803528}
   - component: {fileID: 33323540404319240}
   - component: {fileID: 23957214179899994}
-  - component: {fileID: 64281853568300392}
   m_Layer: 0
   m_Name: SM_Prop_Stool_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1841983883788338}
   m_Mesh: {fileID: 4300000, guid: f143a78ccb4199042bb1d2e520f46960, type: 3}
---- !u!64 &64281853568300392
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1841983883788338}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43301591695294798, guid: e803962aaa4537e4c949b48e1eee2b2b, type: 2}

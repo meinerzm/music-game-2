@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4826401387028506}
   - component: {fileID: 33480421455044912}
   - component: {fileID: 23124218662816278}
-  - component: {fileID: 64889761286076602}
   m_Layer: 0
   m_Name: SM_Prop_Detail_CeilingBox_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1223296368847894}
   m_Mesh: {fileID: 4300000, guid: 01151cd94dd78e94ea451de9b5ba8a8b, type: 3}
---- !u!64 &64889761286076602
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1223296368847894}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43785893213860386, guid: 7cfad0ec1aa916748848c2949cc46b8d, type: 2}

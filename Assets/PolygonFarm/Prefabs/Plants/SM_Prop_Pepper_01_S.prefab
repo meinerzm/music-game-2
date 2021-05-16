@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4948689711188178}
   - component: {fileID: 33193049727644956}
   - component: {fileID: 23710325647856004}
-  - component: {fileID: 64684652045803060}
   m_Layer: 0
   m_Name: SM_Prop_Pepper_01_S
   m_TagString: Untagged
@@ -51,7 +50,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -67,7 +65,6 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -83,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1524633795520318}
   m_Mesh: {fileID: 4300000, guid: 90a9c48979160c3429dc176adafa321e, type: 3}
---- !u!64 &64684652045803060
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1524633795520318}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43315967224381480, guid: 6e7babde9f4dbe14697ee223bed5c041, type: 2}

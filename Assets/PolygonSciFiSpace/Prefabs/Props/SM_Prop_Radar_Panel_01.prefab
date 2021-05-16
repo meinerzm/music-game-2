@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4813416289256364}
   - component: {fileID: 33354645085556618}
   - component: {fileID: 23133501764014586}
-  - component: {fileID: 64971991468358082}
   m_Layer: 0
   m_Name: SM_Prop_Radar_Panel_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1563911471656308}
   m_Mesh: {fileID: 4300000, guid: 7fa6460274ed3d041b4e51d279e187c8, type: 3}
---- !u!64 &64971991468358082
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1563911471656308}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43634521119405276, guid: d6d9111829bb6564384f8a8a596eeb80, type: 2}

@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4709175766510056}
   - component: {fileID: 33607385652291190}
   - component: {fileID: 23081076599851256}
-  - component: {fileID: 64664857313497608}
   m_Layer: 0
   m_Name: SM_Env_Asteroid_06
   m_TagString: Untagged
@@ -80,18 +79,4 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1162800846036822}
-  m_Mesh: {fileID: 4300000, guid: 8c75832eccc5fb24b836a1fb4d4d98fe, type: 3}
---- !u!64 &64664857313497608
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1162800846036822}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 8c75832eccc5fb24b836a1fb4d4d98fe, type: 3}

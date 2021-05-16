@@ -38,7 +38,6 @@ GameObject:
   - component: {fileID: 4092527404436736}
   - component: {fileID: 33287095619272274}
   - component: {fileID: 23067068383380888}
-  - component: {fileID: 64083825752416944}
   m_Layer: 0
   m_Name: SM_Prop_CenterTube_01
   m_TagString: Untagged
@@ -151,17 +150,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1737161984944088}
   m_Mesh: {fileID: 4300000, guid: e19ea463faef7494480b9c6020d71082, type: 3}
---- !u!64 &64083825752416944
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1737161984944088}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43279048242418174, guid: 1a09ba3aa442ad44c9216d16d9567cdf, type: 2}

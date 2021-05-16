@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4061707915569814}
   - component: {fileID: 33483760412238622}
   - component: {fileID: 23474807738718480}
-  - component: {fileID: 65297078636845854}
   m_Layer: 0
   m_Name: SM_Sign_Hydroponics_01
   m_TagString: Untagged
@@ -81,15 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1060111887320374}
   m_Mesh: {fileID: 4300000, guid: 0881ab755387e8f488f48e1d012300e7, type: 3}
---- !u!65 &65297078636845854
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1060111887320374}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.0990944, y: 0.91799164, z: 0.14419122}
-  m_Center: {x: 0.00000023841858, y: 0, z: 0}

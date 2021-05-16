@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4756683596857312}
   - component: {fileID: 33393258345764940}
   - component: {fileID: 23756251149608204}
-  - component: {fileID: 64613886987446966}
   m_Layer: 0
   m_Name: SM_Prop_Fence_Wire_02
   m_TagString: Untagged
@@ -51,7 +50,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -67,7 +65,6 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -83,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1974500447329134}
   m_Mesh: {fileID: 4300000, guid: cf8da7de8f0caed48a587c2c35c286e4, type: 3}
---- !u!64 &64613886987446966
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1974500447329134}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43573574534420848, guid: d1c2f426472be264a9211bbfdfb98962, type: 2}

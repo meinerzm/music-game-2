@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4500821632387070}
   - component: {fileID: 33473441459365180}
   - component: {fileID: 23767012196149510}
-  - component: {fileID: 64986255810940128}
   m_Layer: 0
   m_Name: SM_Prop_Detail_Lights_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1013053574578772}
   m_Mesh: {fileID: 4300000, guid: f3b47e725abe95644aa7a98d298e245a, type: 3}
---- !u!64 &64986255810940128
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1013053574578772}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43864876238455340, guid: b59d5d020b164fe4aba3241dbf2f85bd, type: 2}

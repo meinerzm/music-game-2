@@ -21,8 +21,6 @@ GameObject:
   - component: {fileID: 4061562823349686}
   - component: {fileID: 33596111628109348}
   - component: {fileID: 23981213583727532}
-  - component: {fileID: 64069127603070342}
-  - component: {fileID: 64405914093603494}
   m_Layer: 0
   m_Name: SM_Env_Tree_Plum_Grown_01
   m_TagString: Untagged
@@ -52,7 +50,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -68,7 +65,6 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -84,31 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1940795324081892}
   m_Mesh: {fileID: 4300000, guid: 6aaae776b6965754d8eae1882070c385, type: 3}
---- !u!64 &64069127603070342
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1940795324081892}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43582727582748130, guid: 6abef2f485188f4488dfc3a83e431b8c, type: 2}
---- !u!64 &64405914093603494
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1940795324081892}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43634955408091060, guid: 6abef2f485188f4488dfc3a83e431b8c, type: 2}

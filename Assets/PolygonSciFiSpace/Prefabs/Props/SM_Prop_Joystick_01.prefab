@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4120350692488268}
   - component: {fileID: 33196398453457432}
   - component: {fileID: 23872134096206334}
-  - component: {fileID: 64298968580696272}
   m_Layer: 0
   m_Name: SM_Prop_Joystick_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1536358495211910}
   m_Mesh: {fileID: 4300000, guid: 3ea8cf7a3ff9a3f4892e8b7c9348b995, type: 3}
---- !u!64 &64298968580696272
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1536358495211910}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43505655367911680, guid: 8a56db59b47f8bd40bce134e6394ee6f, type: 2}

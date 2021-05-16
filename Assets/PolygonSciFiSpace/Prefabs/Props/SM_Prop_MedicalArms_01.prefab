@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4870274732069120}
   - component: {fileID: 33299102311145920}
   - component: {fileID: 23730255627903610}
-  - component: {fileID: 64936200333479826}
   m_Layer: 0
   m_Name: SM_Prop_MedicalArms_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1537522784401032}
   m_Mesh: {fileID: 4300000, guid: bffde652319d09e40a541801b71081ec, type: 3}
---- !u!64 &64936200333479826
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1537522784401032}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43467666452562124, guid: 58c0a7ef09f82974fbf845e6a91f9f3e, type: 2}

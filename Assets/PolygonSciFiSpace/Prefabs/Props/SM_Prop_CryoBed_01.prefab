@@ -38,7 +38,6 @@ GameObject:
   - component: {fileID: 4592234601349518}
   - component: {fileID: 33406709773732902}
   - component: {fileID: 23552661165548832}
-  - component: {fileID: 64522315806941428}
   m_Layer: 0
   m_Name: SM_Prop_CryoBed_01
   m_TagString: Untagged
@@ -221,17 +220,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1719742860921462}
   m_Mesh: {fileID: 4300000, guid: 866092752c876c94cb8e57fbdd1e1df7, type: 3}
---- !u!64 &64522315806941428
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1719742860921462}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43483821542988188, guid: 8232bbb1084b38e40858d3361fe120bc, type: 2}

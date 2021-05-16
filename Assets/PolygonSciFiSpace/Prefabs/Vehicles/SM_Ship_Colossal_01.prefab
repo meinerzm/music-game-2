@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4834026389170568}
   - component: {fileID: 33756007382779452}
   - component: {fileID: 23169260956507710}
-  - component: {fileID: 64765378088398514}
   m_Layer: 0
   m_Name: SM_Ship_Colossal_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1910942513890008}
   m_Mesh: {fileID: 4300000, guid: 741dffc83fddc7b49b9769ffbab665c7, type: 3}
---- !u!64 &64765378088398514
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1910942513890008}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 2907f49000d47b84e88b3984f89b28e0, type: 3}

@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4065600046878536}
   - component: {fileID: 33963694441596372}
   - component: {fileID: 23941627669671584}
-  - component: {fileID: 64839887384623826}
   m_Layer: 0
   m_Name: SM_Prop_Stairs_01
   m_TagString: Untagged
@@ -35,9 +34,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1456399833764868}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+  m_LocalPosition: {x: -0, y: 0, z: 2.4222922e-17}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1456399833764868}
   m_Mesh: {fileID: 4300000, guid: 3a9167268fb73cb48b6f3226667f05f2, type: 3}
---- !u!64 &64839887384623826
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1456399833764868}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 4c1578abba55519498e93ebfb5caf830, type: 3}

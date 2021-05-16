@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 33711349600628066}
   - component: {fileID: 23076145599266472}
   - component: {fileID: 95435024080827778}
-  - component: {fileID: 64767440466019546}
   m_Layer: 0
   m_Name: SM_Prop_Oxygen_Tank_Large
   m_TagString: Untagged
@@ -82,20 +81,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1662120072097882}
   m_Mesh: {fileID: 4300000, guid: 85caf44f89d54a845befe7c49cfb6c3e, type: 3}
---- !u!64 &64767440466019546
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1662120072097882}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43167334829144760, guid: cd0e214be8ea0a74c89553ff4ace5ff3, type: 2}
 --- !u!95 &95435024080827778
 Animator:
   serializedVersion: 3

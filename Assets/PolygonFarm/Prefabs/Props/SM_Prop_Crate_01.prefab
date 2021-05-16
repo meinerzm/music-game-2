@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4108435219782172}
   - component: {fileID: 33139237068174072}
   - component: {fileID: 23463536765288966}
-  - component: {fileID: 64811242409656312}
   m_Layer: 0
   m_Name: SM_Prop_Crate_01
   m_TagString: Untagged
@@ -51,7 +50,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -67,7 +65,6 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -83,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1077332851755960}
   m_Mesh: {fileID: 4300000, guid: 85316e6a5a2a2c047a384df19b383824, type: 3}
---- !u!64 &64811242409656312
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1077332851755960}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43655601705514994, guid: dfb98c4279d81d44a8f0bb1f556df54c, type: 2}

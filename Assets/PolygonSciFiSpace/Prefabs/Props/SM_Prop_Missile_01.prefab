@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4637046966039350}
   - component: {fileID: 33110016751676676}
   - component: {fileID: 23227299991020070}
-  - component: {fileID: 64306187325726488}
   m_Layer: 0
   m_Name: SM_Prop_Missile_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1550517015285282}
   m_Mesh: {fileID: 4300000, guid: 5225e9efc03e20c4d884f04477d7d59b, type: 3}
---- !u!64 &64306187325726488
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1550517015285282}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43143002943449578, guid: 67a57f3fc06b8f449997b00d8d396431, type: 2}

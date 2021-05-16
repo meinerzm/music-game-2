@@ -38,7 +38,6 @@ GameObject:
   - component: {fileID: 4787664267187672}
   - component: {fileID: 33256342862826486}
   - component: {fileID: 23588240891910848}
-  - component: {fileID: 64375191112831068}
   m_Layer: 0
   m_Name: SM_Prop_EscapePod_Hatch_Large_01
   m_TagString: Untagged
@@ -221,17 +220,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1092368072533060}
   m_Mesh: {fileID: 4300004, guid: 30e13cd53050c764985796b04f357e39, type: 3}
---- !u!64 &64375191112831068
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1174824580496524}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43147696132940302, guid: 6e581cfa377fefb4ebbe1b01d9509913, type: 2}

@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4593282014200748}
   - component: {fileID: 33999970417536124}
   - component: {fileID: 23286851970609176}
-  - component: {fileID: 64305748388539582}
   m_Layer: 0
   m_Name: SM_Prop_Tank_01
   m_TagString: Untagged
@@ -80,18 +79,4 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1450998255903408}
-  m_Mesh: {fileID: 4300000, guid: 2d711c72ac3d8a04cab421ce803ab6ae, type: 3}
---- !u!64 &64305748388539582
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1450998255903408}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43784847168986728, guid: 23b453ad7a205a34184507d3defdeed0, type: 2}
+  m_Mesh: {fileID: 4300000, guid: a9e97062ced72964d8c4c44620fab405, type: 3}

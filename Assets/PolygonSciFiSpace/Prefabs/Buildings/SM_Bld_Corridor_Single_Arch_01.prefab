@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4694425858704872}
   - component: {fileID: 33654235022996402}
   - component: {fileID: 23499177195833340}
-  - component: {fileID: 64914376755872516}
   m_Layer: 0
   m_Name: SM_Bld_Corridor_Single_Arch_01
   m_TagString: Untagged
@@ -80,18 +79,4 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1335802857271890}
-  m_Mesh: {fileID: 4300000, guid: 846e64a08715cc547aa1173efa3f72cc, type: 3}
---- !u!64 &64914376755872516
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1335802857271890}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 846e64a08715cc547aa1173efa3f72cc, type: 3}

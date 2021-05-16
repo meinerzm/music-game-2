@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4898241286333772}
   - component: {fileID: 33118640885008182}
   - component: {fileID: 23749039162727648}
-  - component: {fileID: 64568612773358552}
   m_Layer: 0
   m_Name: SM_Bld_Ceiling_Pipe_Junction_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1842693022419666}
   m_Mesh: {fileID: 4300000, guid: 90e19e05716f86540ac8f061ae2fa9b3, type: 3}
---- !u!64 &64568612773358552
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1842693022419666}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43666142642154812, guid: 0266bf8f4d331244784833cd79b5ebdc, type: 2}

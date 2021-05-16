@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4496559663328304}
   - component: {fileID: 33165209623364504}
   - component: {fileID: 23456493983021982}
-  - component: {fileID: 64671828739279930}
   m_Layer: 0
   m_Name: SM_Bld_Crew_Toilet_01
   m_TagString: Untagged
@@ -152,17 +151,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1954357693080856}
   m_Mesh: {fileID: 4300002, guid: de9981c0e657f0e49bdfa8a3500735c0, type: 3}
---- !u!64 &64671828739279930
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1066240190166816}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43513574232468778, guid: 57227b50f7ad2654ead776ef598dbd22, type: 2}

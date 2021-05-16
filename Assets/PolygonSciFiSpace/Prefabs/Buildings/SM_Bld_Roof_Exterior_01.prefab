@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4026410500600512}
   - component: {fileID: 33647366730368808}
   - component: {fileID: 23463575047998170}
-  - component: {fileID: 64039773577981754}
   m_Layer: 0
   m_Name: SM_Bld_Roof_Exterior_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1847502669122932}
   m_Mesh: {fileID: 4300000, guid: e549875f6770a4b4ab56b9e59979d0c8, type: 3}
---- !u!64 &64039773577981754
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1847502669122932}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43494386284151408, guid: 553a36dab6bfc08478234136e0f13177, type: 2}

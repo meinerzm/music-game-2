@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4936708246918788}
   - component: {fileID: 33826586252713710}
   - component: {fileID: 23902428560498346}
-  - component: {fileID: 64376925387971152}
   m_Layer: 0
   m_Name: SM_Prop_Detail_Struts_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1137135386359674}
   m_Mesh: {fileID: 4300000, guid: 4a6612d40cf75fd40ac4c48dd5af6f37, type: 3}
---- !u!64 &64376925387971152
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1137135386359674}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43670951725117996, guid: df6793779ccff0e4a9ad263b518d2ea6, type: 2}

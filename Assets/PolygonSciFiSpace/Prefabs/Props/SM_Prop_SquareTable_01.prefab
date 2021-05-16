@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4580351388404930}
   - component: {fileID: 33592577175994586}
   - component: {fileID: 23233216895442680}
-  - component: {fileID: 64083861331016000}
   m_Layer: 0
   m_Name: SM_Prop_SquareTable_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1012841150076058}
   m_Mesh: {fileID: 4300000, guid: 47102766d9f87eb459bfdfd807bcd689, type: 3}
---- !u!64 &64083861331016000
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1012841150076058}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43555708346841942, guid: 63360df9bf2ffe24bbc744e7aa5a711b, type: 2}

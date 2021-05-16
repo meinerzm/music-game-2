@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4500970435646606}
   - component: {fileID: 33030108693243208}
   - component: {fileID: 23247066437056176}
-  - component: {fileID: 65823376479455958}
   m_Layer: 0
   m_Name: SM_Bld_Floor_011
   m_TagString: Untagged
@@ -35,8 +34,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1818237785379436}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -81,15 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1818237785379436}
   m_Mesh: {fileID: 4300000, guid: 14355eaf09c4782429a5cede5de68399, type: 3}
---- !u!65 &65823376479455958
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1818237785379436}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5, y: 0.2051765, z: 5.0000014}
-  m_Center: {x: -2.5, y: -0.08019236, z: 2.4999993}

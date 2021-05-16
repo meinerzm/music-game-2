@@ -72,7 +72,6 @@ GameObject:
   - component: {fileID: 4136384114343926}
   - component: {fileID: 33023777925935190}
   - component: {fileID: 23918390006786114}
-  - component: {fileID: 64742641372225520}
   m_Layer: 0
   m_Name: SM_Ship_Galactic_Carrier_01
   m_TagString: Untagged
@@ -1481,17 +1480,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1213452920948216}
   m_Mesh: {fileID: 4300026, guid: f55e6d99649ccff4383a155253a9a573, type: 3}
---- !u!64 &64742641372225520
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1095116060173382}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: be8d4c9246c63b44fbf547196c2637df, type: 3}

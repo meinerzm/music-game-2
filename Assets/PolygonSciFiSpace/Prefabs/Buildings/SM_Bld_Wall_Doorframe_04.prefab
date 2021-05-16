@@ -21,8 +21,6 @@ GameObject:
   - component: {fileID: 4035240748447630}
   - component: {fileID: 33646379313235452}
   - component: {fileID: 23203843482259346}
-  - component: {fileID: 64120392063517202}
-  - component: {fileID: 64448824103520820}
   m_Layer: 0
   m_Name: SM_Bld_Wall_Doorframe_04
   m_TagString: Untagged
@@ -40,7 +38,6 @@ GameObject:
   - component: {fileID: 4007370178102640}
   - component: {fileID: 33778523960237548}
   - component: {fileID: 23224193602351940}
-  - component: {fileID: 64887805240978206}
   m_Layer: 0
   m_Name: SM_Bld_Wall_Door_01
   m_TagString: Untagged
@@ -152,46 +149,4 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1932278615020720}
-  m_Mesh: {fileID: 4300002, guid: 184b9152a676cf04bac10a32e5c5644c, type: 3}
---- !u!64 &64120392063517202
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1193256753639204}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 184b9152a676cf04bac10a32e5c5644c, type: 3}
---- !u!64 &64448824103520820
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1193256753639204}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 184b9152a676cf04bac10a32e5c5644c, type: 3}
---- !u!64 &64887805240978206
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1932278615020720}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 184b9152a676cf04bac10a32e5c5644c, type: 3}

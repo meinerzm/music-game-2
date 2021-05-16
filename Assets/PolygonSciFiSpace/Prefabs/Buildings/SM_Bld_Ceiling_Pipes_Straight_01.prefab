@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4355208421350794}
   - component: {fileID: 33531086859468846}
   - component: {fileID: 23945848576252792}
-  - component: {fileID: 64552592564494666}
   m_Layer: 0
   m_Name: SM_Bld_Ceiling_Pipes_Straight_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1875597604173668}
   m_Mesh: {fileID: 4300000, guid: 25582dac3e98c6b4192b725b8f9a6acf, type: 3}
---- !u!64 &64552592564494666
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1875597604173668}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43482543438364868, guid: 6c3b1b25cf62df048b20597aac3da3b7, type: 2}

@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4147771195623794}
   - component: {fileID: 33615716925721766}
   - component: {fileID: 23640104249197444}
-  - component: {fileID: 64202113992565796}
   m_Layer: 0
   m_Name: SM_Prop_Battery_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1942339182193828}
   m_Mesh: {fileID: 4300000, guid: c5a94ed5d1d20054aa8eb3001574f156, type: 3}
---- !u!64 &64202113992565796
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1942339182193828}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43646927244671398, guid: 8505e241ce0527049b5eb141bae4c1e8, type: 2}

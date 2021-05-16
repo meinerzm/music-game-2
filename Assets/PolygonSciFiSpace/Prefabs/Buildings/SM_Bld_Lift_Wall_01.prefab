@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4997712868620684}
   - component: {fileID: 33352240408988308}
   - component: {fileID: 23705198448581520}
-  - component: {fileID: 64735605860484312}
   m_Layer: 0
   m_Name: SM_Bld_Lift_Wall_Door_01
   m_TagString: Untagged
@@ -39,7 +38,7 @@ GameObject:
   - component: {fileID: 4314020795926954}
   - component: {fileID: 33917010903000776}
   - component: {fileID: 23228477755354204}
-  - component: {fileID: 64607725816811796}
+  - component: {fileID: 95814042206016258}
   m_Layer: 0
   m_Name: SM_Bld_Lift_Wall_01
   m_TagString: Untagged
@@ -57,7 +56,6 @@ GameObject:
   - component: {fileID: 4454580006987200}
   - component: {fileID: 33295203230086532}
   - component: {fileID: 23869539967279716}
-  - component: {fileID: 64500460540859892}
   m_Layer: 0
   m_Name: SM_Bld_Lift_Wall_Door_02
   m_TagString: Untagged
@@ -223,45 +221,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1245762855502432}
   m_Mesh: {fileID: 4300000, guid: 0c71ba21b3ffebb4188d15c7b1d33f7e, type: 3}
---- !u!64 &64500460540859892
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1496441230401456}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300004, guid: 0c71ba21b3ffebb4188d15c7b1d33f7e, type: 3}
---- !u!64 &64607725816811796
-MeshCollider:
+--- !u!95 &95814042206016258
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1245762855502432}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 0c71ba21b3ffebb4188d15c7b1d33f7e, type: 3}
---- !u!64 &64735605860484312
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1090067787318178}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300002, guid: 0c71ba21b3ffebb4188d15c7b1d33f7e, type: 3}
+  m_Avatar: {fileID: 9000000, guid: 0c71ba21b3ffebb4188d15c7b1d33f7e, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1

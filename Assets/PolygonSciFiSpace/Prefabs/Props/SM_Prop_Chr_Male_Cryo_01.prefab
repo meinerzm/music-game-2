@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4789961480353848}
   - component: {fileID: 33134165261205646}
   - component: {fileID: 23987963776126432}
-  - component: {fileID: 64074232228464466}
   m_Layer: 0
   m_Name: SM_Prop_Chr_Male_Cryo_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1273072762646748}
   m_Mesh: {fileID: 4300000, guid: e5f55a3fa27e3174697a3262c26efb38, type: 3}
---- !u!64 &64074232228464466
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1273072762646748}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43499762570709674, guid: dd32fe2ed60535446b3d10784a5e913c, type: 2}

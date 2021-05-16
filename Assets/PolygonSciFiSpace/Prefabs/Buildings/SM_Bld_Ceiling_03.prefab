@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4019274876942284}
   - component: {fileID: 33435369757379926}
   - component: {fileID: 23415500948415996}
-  - component: {fileID: 64485144782536844}
   m_Layer: 0
   m_Name: SM_Bld_Ceiling_03
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1095299966603854}
   m_Mesh: {fileID: 4300000, guid: 72c306b79813d604c8d510cbfa8e8560, type: 3}
---- !u!64 &64485144782536844
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1095299966603854}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43553725762460536, guid: b3451cd0f27f27c498d1f1d13f32ce92, type: 2}

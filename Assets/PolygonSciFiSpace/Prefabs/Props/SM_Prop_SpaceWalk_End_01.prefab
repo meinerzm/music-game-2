@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4732656176802112}
   - component: {fileID: 33666124392947908}
   - component: {fileID: 23359580859437750}
-  - component: {fileID: 64277580449413990}
   m_Layer: 0
   m_Name: SM_Prop_SpaceWalk_End_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1894465043204992}
   m_Mesh: {fileID: 4300000, guid: a8c54253bff806342888d584b9eef5c4, type: 3}
---- !u!64 &64277580449413990
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1894465043204992}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43745824083508150, guid: 77086e3c2cf050247afb233480e43524, type: 2}

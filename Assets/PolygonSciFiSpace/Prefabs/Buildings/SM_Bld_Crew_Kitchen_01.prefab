@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4833618874285250}
   - component: {fileID: 33220834035676278}
   - component: {fileID: 23677670965740408}
-  - component: {fileID: 64196890327065514}
   m_Layer: 0
   m_Name: SM_Bld_Crew_Kitchen_01
   m_TagString: Untagged
@@ -35,8 +34,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1668003206215352}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.0045593497, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,17 +81,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1668003206215352}
   m_Mesh: {fileID: 4300000, guid: 4ef9196682639854e83d4e2ee3ad52c6, type: 3}
---- !u!64 &64196890327065514
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1668003206215352}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43290496914566458, guid: 0c99bee97bb2c344d9e48a2afd2b15ad, type: 2}

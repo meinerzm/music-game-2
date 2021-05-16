@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4050048577474458}
   - component: {fileID: 33619196268561800}
   - component: {fileID: 23441275449014760}
-  - component: {fileID: 64755376984570788}
   m_Layer: 0
   m_Name: SM_Env_Debris_Shell_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1279094201387166}
   m_Mesh: {fileID: 4300000, guid: f570772f348332d41aa064844678107b, type: 3}
---- !u!64 &64755376984570788
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1279094201387166}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43263592347752730, guid: 628eef35f4492574a997ff0ecc2bcb11, type: 2}

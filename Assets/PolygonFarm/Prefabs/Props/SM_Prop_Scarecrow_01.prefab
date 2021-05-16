@@ -21,8 +21,6 @@ GameObject:
   - component: {fileID: 4841611530678610}
   - component: {fileID: 33360983432454486}
   - component: {fileID: 23407193153993638}
-  - component: {fileID: 64407255795753650}
-  - component: {fileID: 64514608253751054}
   m_Layer: 0
   m_Name: SM_Prop_Scarecrow_01
   m_TagString: Untagged
@@ -52,7 +50,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -68,7 +65,6 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -84,31 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1436178878525030}
   m_Mesh: {fileID: 4300000, guid: 05703f5f6ef010343b7ee30f5160f09d, type: 3}
---- !u!64 &64407255795753650
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1436178878525030}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43472815998150392, guid: 5e27f52f8ef79d54fb8dbc22529e8cfd, type: 2}
---- !u!64 &64514608253751054
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1436178878525030}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43491822011668820, guid: 5e27f52f8ef79d54fb8dbc22529e8cfd, type: 2}

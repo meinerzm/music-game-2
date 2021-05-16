@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4436161331846016}
   - component: {fileID: 33633758914872992}
   - component: {fileID: 23168089212709422}
-  - component: {fileID: 64759223647923990}
   m_Layer: 0
   m_Name: SM_Prop_Greeble_Cube_02
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1169770647309442}
   m_Mesh: {fileID: 4300000, guid: 78d9261781d0f3041a5d880a87f96ad2, type: 3}
---- !u!64 &64759223647923990
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1169770647309442}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43506961884908014, guid: a1f49dd4550425449b4ceeb48bcc1832, type: 2}

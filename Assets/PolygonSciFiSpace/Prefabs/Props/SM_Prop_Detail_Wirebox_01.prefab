@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4896247063704292}
   - component: {fileID: 33929285331242640}
   - component: {fileID: 23577876435686052}
-  - component: {fileID: 64757949251518244}
   m_Layer: 0
   m_Name: SM_Prop_Detail_Wirebox_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1609582470096202}
   m_Mesh: {fileID: 4300000, guid: 2a7192164cc4e234593e48316429f256, type: 3}
---- !u!64 &64757949251518244
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1609582470096202}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43862742551881422, guid: e255317e3936b3342a8644b6e8fbd069, type: 2}

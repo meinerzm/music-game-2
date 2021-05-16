@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4901220500119360}
   - component: {fileID: 33201545689833856}
   - component: {fileID: 23567932836409554}
-  - component: {fileID: 64404502391709078}
   m_Layer: 0
   m_Name: SM_Prop_Turret_Missile_Base_Double_02
   m_TagString: Untagged
@@ -39,7 +38,6 @@ GameObject:
   - component: {fileID: 4957898181522142}
   - component: {fileID: 33069756135703998}
   - component: {fileID: 23212184141569950}
-  - component: {fileID: 64440711806697340}
   m_Layer: 0
   m_Name: SM_Prop_Turret_Base_Double_08
   m_TagString: Untagged
@@ -97,8 +95,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1651171065577300}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4901220500119360}
@@ -222,31 +220,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1801848572762922}
   m_Mesh: {fileID: 4300004, guid: 734e7030916178a4096c8df2611cdee5, type: 3}
---- !u!64 &64404502391709078
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1053958417445602}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43285102510454106, guid: b7f9ae7aad4ad62489e3cbb506f7db8b, type: 2}
---- !u!64 &64440711806697340
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1651171065577300}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43043793431104772, guid: b9b845662f4ccba49b124cad8d2bbd99, type: 2}

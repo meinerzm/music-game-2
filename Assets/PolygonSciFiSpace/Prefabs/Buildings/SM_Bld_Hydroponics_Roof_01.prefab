@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4339479164530510}
   - component: {fileID: 33239049711233036}
   - component: {fileID: 23450184663386258}
-  - component: {fileID: 64784170526465198}
   m_Layer: 0
   m_Name: SM_Bld_Hydroponics_Roof_01
   m_TagString: Untagged
@@ -151,17 +150,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1621953843610804}
   m_Mesh: {fileID: 4300000, guid: d9cd4325ce39d2944b67c7253667db3a, type: 3}
---- !u!64 &64784170526465198
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1621953843610804}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43485538604988318, guid: 2ee3e1cbfe97ebf44979924a4a3c3e84, type: 2}

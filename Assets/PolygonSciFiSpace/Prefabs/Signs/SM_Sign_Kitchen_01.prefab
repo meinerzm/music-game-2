@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4964878447770072}
   - component: {fileID: 33396481765299462}
   - component: {fileID: 23377949198036572}
-  - component: {fileID: 65909980973705414}
   m_Layer: 0
   m_Name: SM_Sign_Kitchen_01
   m_TagString: Untagged
@@ -81,15 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1123211801745856}
   m_Mesh: {fileID: 4300000, guid: 99d06b6b21ca75c4ab7151327c3aee44, type: 3}
---- !u!65 &65909980973705414
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1123211801745856}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.2733376, y: 0.91799164, z: 0.14419122}
-  m_Center: {x: 0, y: 0, z: 0}

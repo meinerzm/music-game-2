@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4573840353889760}
   - component: {fileID: 33273389021257004}
   - component: {fileID: 23098708853619466}
-  - component: {fileID: 64579020757397502}
   m_Layer: 0
   m_Name: SM_Prop_Light_Panel_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1107281013672346}
   m_Mesh: {fileID: 4300000, guid: 170064085127c8748ae64c26a823cd8c, type: 3}
---- !u!64 &64579020757397502
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1107281013672346}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43431131111436480, guid: 9b2e832eb43e2d64095c2529a7cb91bf, type: 2}

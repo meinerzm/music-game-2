@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4308452776619322}
   - component: {fileID: 33275163166821098}
   - component: {fileID: 23330614371728694}
-  - component: {fileID: 65660484153349920}
   m_Layer: 0
   m_Name: SM_SignBorder_Planet_01
   m_TagString: Untagged
@@ -81,15 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1144425936713468}
   m_Mesh: {fileID: 4300000, guid: 54b2dbd6f5120ab41ae364ba530a7c03, type: 3}
---- !u!65 &65660484153349920
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1144425936713468}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.1675289, y: 1.1675289, z: 0.14419124}
-  m_Center: {x: 0, y: 0, z: -0.000000011175871}

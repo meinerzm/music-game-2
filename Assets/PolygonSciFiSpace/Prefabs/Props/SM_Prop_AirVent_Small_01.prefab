@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4750162829005410}
   - component: {fileID: 33718548049753692}
   - component: {fileID: 23852966928357712}
-  - component: {fileID: 64144006649061900}
   m_Layer: 0
   m_Name: SM_Prop_AirVent_Small_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1938196534186014}
   m_Mesh: {fileID: 4300000, guid: 60426d0b59c78b6418a3ffbff8f20490, type: 3}
---- !u!64 &64144006649061900
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1938196534186014}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43769520627897944, guid: dbc68425f51e3ce4a9bf0088868a41df, type: 2}

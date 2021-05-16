@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4094978721792468}
   - component: {fileID: 33439559953178350}
   - component: {fileID: 23005310840786118}
-  - component: {fileID: 64550085307290236}
   m_Layer: 0
   m_Name: SM_Prop_SpaceWalk_Tube_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1276918966077662}
   m_Mesh: {fileID: 4300000, guid: efb4f3d218c769d49b069a46cfeb6a3b, type: 3}
---- !u!64 &64550085307290236
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1276918966077662}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43522537683953650, guid: df779bbd2c83c5b48ad81000b0d780c1, type: 2}

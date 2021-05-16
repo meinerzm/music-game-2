@@ -21,9 +21,6 @@ GameObject:
   - component: {fileID: 4153561948850794}
   - component: {fileID: 33721229073677152}
   - component: {fileID: 23123857174137164}
-  - component: {fileID: 64320238875267544}
-  - component: {fileID: 64959913494353160}
-  - component: {fileID: 64099304512252138}
   m_Layer: 0
   m_Name: SM_Prop_Medical_Tube_01
   m_TagString: Untagged
@@ -153,45 +150,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1058912666773384}
   m_Mesh: {fileID: 4300000, guid: 3deb0883a5dd8ec4fb89d9afa026399a, type: 3}
---- !u!64 &64099304512252138
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1058912666773384}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43627142485574660, guid: fb389e0dacab9b54e9daf24fc2bdc65d, type: 2}
---- !u!64 &64320238875267544
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1058912666773384}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43620266614078830, guid: fb389e0dacab9b54e9daf24fc2bdc65d, type: 2}
---- !u!64 &64959913494353160
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1058912666773384}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43597484633502506, guid: fb389e0dacab9b54e9daf24fc2bdc65d, type: 2}

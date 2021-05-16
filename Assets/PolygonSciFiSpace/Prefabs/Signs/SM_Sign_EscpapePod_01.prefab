@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4076513966489372}
   - component: {fileID: 33492863383970326}
   - component: {fileID: 23471354955336026}
-  - component: {fileID: 65558860288388352}
   m_Layer: 0
   m_Name: SM_Sign_EscpapePod_01
   m_TagString: Untagged
@@ -81,15 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1988474926330444}
   m_Mesh: {fileID: 4300000, guid: af52145d2b8e5bb44aa0ca1b0e31e20b, type: 3}
---- !u!65 &65558860288388352
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1988474926330444}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.343275, y: 0.91799164, z: 0.14419122}
-  m_Center: {x: -0.000000059604645, y: 0, z: 0}

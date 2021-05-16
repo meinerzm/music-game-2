@@ -55,7 +55,6 @@ GameObject:
   - component: {fileID: 4038177997360700}
   - component: {fileID: 33496640490379720}
   - component: {fileID: 23918282614214940}
-  - component: {fileID: 64660033424183540}
   m_Layer: 0
   m_Name: SM_Bld_Hydroponics_UpperFloor_01
   m_TagString: Untagged
@@ -361,17 +360,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1960554336150590}
   m_Mesh: {fileID: 4300002, guid: 7bb5af54bb887ce4586af3090fbf1494, type: 3}
---- !u!64 &64660033424183540
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1729952926610180}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 9c994bf549401804da44a7373f5052de, type: 3}

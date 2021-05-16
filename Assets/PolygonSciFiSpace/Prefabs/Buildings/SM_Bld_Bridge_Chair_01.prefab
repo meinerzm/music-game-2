@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4667200337864036}
   - component: {fileID: 33289192255743148}
   - component: {fileID: 23397198541421936}
-  - component: {fileID: 64253109317373618}
   m_Layer: 0
   m_Name: SM_Bld_Bridge_Chair_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1515749898787118}
   m_Mesh: {fileID: 4300000, guid: 94adcc78255edba4c9c615f82e1e2c34, type: 3}
---- !u!64 &64253109317373618
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1515749898787118}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43357091510670778, guid: ee8fd9222ed8d844baa7c44f50cc81b8, type: 2}

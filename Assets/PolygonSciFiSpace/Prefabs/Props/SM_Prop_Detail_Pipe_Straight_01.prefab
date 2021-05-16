@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4971795294019078}
   - component: {fileID: 33784649491443920}
   - component: {fileID: 23984973113858712}
-  - component: {fileID: 64155401383099910}
   m_Layer: 0
   m_Name: SM_Prop_Detail_Pipe_Straight_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1537823904475068}
   m_Mesh: {fileID: 4300000, guid: 653b47a03fdd5214a972284801433fe2, type: 3}
---- !u!64 &64155401383099910
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1537823904475068}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43228885125929052, guid: 324d689aa012b7349b3ead8f6a863f4a, type: 2}

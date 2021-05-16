@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4305957907737514}
   - component: {fileID: 33858720863087436}
   - component: {fileID: 23988176225011834}
-  - component: {fileID: 64023458885715478}
   m_Layer: 0
   m_Name: SM_Bld_Floor_Small_Hand_Rail_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1570021679919264}
   m_Mesh: {fileID: 4300000, guid: b3987b6acf41dc643a6332babc3a7dc9, type: 3}
---- !u!64 &64023458885715478
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1570021679919264}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43048092573387444, guid: 409303fd4abca3c488e8686a9581ad9b, type: 2}

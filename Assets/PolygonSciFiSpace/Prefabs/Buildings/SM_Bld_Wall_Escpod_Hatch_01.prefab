@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4378148040985484}
   - component: {fileID: 33877777704642580}
   - component: {fileID: 23745176885623898}
-  - component: {fileID: 64270789078109490}
   m_Layer: 0
   m_Name: SM_Bld_Wall_Esc_Hatch_Door_01
   m_TagString: Untagged
@@ -39,8 +38,6 @@ GameObject:
   - component: {fileID: 4472553085278846}
   - component: {fileID: 33879173562500414}
   - component: {fileID: 23510801045148106}
-  - component: {fileID: 64252235916516128}
-  - component: {fileID: 64850353533126402}
   m_Layer: 0
   m_Name: SM_Bld_Wall_Escpod_Hatch_01
   m_TagString: Untagged
@@ -152,46 +149,4 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1953488379581982}
-  m_Mesh: {fileID: 4300004, guid: 031ef83336706614e9aac66905586671, type: 3}
---- !u!64 &64252235916516128
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1953488379581982}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300004, guid: 031ef83336706614e9aac66905586671, type: 3}
---- !u!64 &64270789078109490
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1578493712289892}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300006, guid: 031ef83336706614e9aac66905586671, type: 3}
---- !u!64 &64850353533126402
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1953488379581982}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: 031ef83336706614e9aac66905586671, type: 3}

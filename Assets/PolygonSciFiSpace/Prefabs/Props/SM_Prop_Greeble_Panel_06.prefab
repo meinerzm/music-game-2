@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4587291974542032}
   - component: {fileID: 33471782134400256}
   - component: {fileID: 23829776395030338}
-  - component: {fileID: 64990765187102676}
   m_Layer: 0
   m_Name: SM_Prop_Greeble_Panel_06
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1750558380466578}
   m_Mesh: {fileID: 4300000, guid: d25be51231836a84f91230641882af01, type: 3}
---- !u!64 &64990765187102676
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1750558380466578}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43416111109768894, guid: 6c555c11ec8449e40a0b8535e7f91833, type: 2}

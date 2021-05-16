@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4565021973327482}
   - component: {fileID: 33518674278507852}
   - component: {fileID: 23094673423404934}
-  - component: {fileID: 64401933902082724}
   m_Layer: 0
   m_Name: SM_Bld_Ceiling_Pipes_Turn_L_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1063990211198142}
   m_Mesh: {fileID: 4300000, guid: ab214fb2e49c01e4cb1799da9922790f, type: 3}
---- !u!64 &64401933902082724
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1063990211198142}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43857725743003190, guid: 2c64fa91211622f48b81f307a3c87428, type: 2}

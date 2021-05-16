@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4341067604763964}
   - component: {fileID: 33235362798928930}
   - component: {fileID: 23075490815601160}
-  - component: {fileID: 64091704360529676}
   m_Layer: 0
   m_Name: SM_Prop_Lettuce_01_M
   m_TagString: Untagged
@@ -51,7 +50,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -67,7 +65,6 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -83,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1877061502209778}
   m_Mesh: {fileID: 4300000, guid: dd167a2e92f246c46819d90378a5235d, type: 3}
---- !u!64 &64091704360529676
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1877061502209778}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43651490884638068, guid: b8501b7d8a4f85547b53a31a786a705f, type: 2}

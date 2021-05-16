@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4466883485607550}
   - component: {fileID: 33094583291642164}
   - component: {fileID: 23592991013314192}
-  - component: {fileID: 65615219491215294}
   m_Layer: 0
   m_Name: SM_Sign_LockerRoom_01
   m_TagString: Untagged
@@ -81,15 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1213536896559096}
   m_Mesh: {fileID: 4300000, guid: 1fd472a9434607d4a81f6b901ccd7218, type: 3}
---- !u!65 &65615219491215294
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1213536896559096}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.0990944, y: 0.91799164, z: 0.14419122}
-  m_Center: {x: 0.00000023841858, y: 0, z: 0}

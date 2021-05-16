@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4316110219201606}
   - component: {fileID: 33053319467449670}
   - component: {fileID: 23681769013878340}
-  - component: {fileID: 65886547164982274}
   m_Layer: 0
   m_Name: SM_SignBorder_Fire_01
   m_TagString: Untagged
@@ -81,15 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1050042626047090}
   m_Mesh: {fileID: 4300000, guid: 369c9b9a92d16214aa8b1db6e5b9c133, type: 3}
---- !u!65 &65886547164982274
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1050042626047090}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.1675289, y: 1.1675289, z: 0.14419124}
-  m_Center: {x: 0, y: 0, z: -0.000000011175871}

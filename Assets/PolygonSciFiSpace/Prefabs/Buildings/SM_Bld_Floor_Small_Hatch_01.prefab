@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4260739354259230}
   - component: {fileID: 33444731738553384}
   - component: {fileID: 23223400350470382}
-  - component: {fileID: 64623085425076646}
   m_Layer: 0
   m_Name: SM_Bld_Floor_Small_Hatch_01
   m_TagString: Untagged
@@ -151,17 +150,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1639117567363414}
   m_Mesh: {fileID: 4300000, guid: 861ac554e3210fd4dab58f9a490430e1, type: 3}
---- !u!64 &64623085425076646
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1639117567363414}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43138440754791896, guid: 7f2974ef94666f046aa5829d5fab25aa, type: 2}

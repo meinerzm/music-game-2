@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4589548313525446}
   - component: {fileID: 33054970393831194}
   - component: {fileID: 23330064528763854}
-  - component: {fileID: 64294893438777888}
   m_Layer: 0
   m_Name: SM_Bld_Wall_Doorframe_Outer_01
   m_TagString: Untagged
@@ -80,18 +79,4 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1972763598557674}
-  m_Mesh: {fileID: 4300000, guid: caa0cf711f7d8b94cb0b28b4c10dbe69, type: 3}
---- !u!64 &64294893438777888
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1972763598557674}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: caa0cf711f7d8b94cb0b28b4c10dbe69, type: 3}

@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4721892043323208}
   - component: {fileID: 33848331086838400}
   - component: {fileID: 23931218603071470}
-  - component: {fileID: 64482037363301302}
   m_Layer: 0
   m_Name: SM_Prop_Sign_Plums_01
   m_TagString: Untagged
@@ -51,7 +50,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -67,7 +65,6 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -83,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1977078045426814}
   m_Mesh: {fileID: 4300000, guid: a8a6ae27f9a47a046b455799f084344a, type: 3}
---- !u!64 &64482037363301302
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1977078045426814}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43176178081064070, guid: 1e66aa4e11cf6ea478627cb74f554217, type: 2}

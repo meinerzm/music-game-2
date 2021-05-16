@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4891446933747286}
   - component: {fileID: 33898362229460834}
   - component: {fileID: 23426939429935152}
-  - component: {fileID: 64675800131763624}
   m_Layer: 0
   m_Name: SM_Bld_Crew_Beds_01
   m_TagString: Untagged
@@ -82,17 +81,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1583862943896874}
   m_Mesh: {fileID: 4300000, guid: 620e1ec98a81ba64b8f483a5dfeb4e74, type: 3}
---- !u!64 &64675800131763624
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1583862943896874}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43594432506435742, guid: f202d0598f0881444b4fb8ecddf72bc7, type: 2}

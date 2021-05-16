@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4565240510524214}
   - component: {fileID: 33832007279912890}
   - component: {fileID: 23503687692472410}
-  - component: {fileID: 64553279683579820}
   m_Layer: 0
   m_Name: SM_Prop_TestTubes_01
   m_TagString: Untagged
@@ -81,17 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1548801266821834}
   m_Mesh: {fileID: 4300000, guid: 342aa38698e69bb418e235d220563bac, type: 3}
---- !u!64 &64553279683579820
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1548801266821834}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 43029442677333704, guid: 6e93e20e10959724dbe42e070007a33f, type: 2}

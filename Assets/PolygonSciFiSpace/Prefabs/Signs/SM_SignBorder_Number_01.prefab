@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4105515343838970}
   - component: {fileID: 33334050242778892}
   - component: {fileID: 23285929456906310}
-  - component: {fileID: 65472763327535278}
   m_Layer: 0
   m_Name: SM_SignBorder_Number_01
   m_TagString: Untagged
@@ -81,15 +80,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1707428023078880}
   m_Mesh: {fileID: 4300000, guid: d77d9c8be8872114199ba036c4b235ff, type: 3}
---- !u!65 &65472763327535278
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1707428023078880}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.1675289, y: 1.1675289, z: 0.14419124}
-  m_Center: {x: 0, y: 0, z: -0.000000011175871}
