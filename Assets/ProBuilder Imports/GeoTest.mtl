@@ -1,0 +1,9 @@
+newmtl ProBuilderDefault
+map_Kd GridBox_Default.png
+Kd 1 1 1
+d 1
+
+newmtl Glass
+Kd 0.06986471 0.09282574 0.09433961
+d 0.3333333
+

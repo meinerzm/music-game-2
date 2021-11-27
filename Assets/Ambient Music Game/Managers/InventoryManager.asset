@@ -128,5 +128,15 @@ MonoBehaviour:
   passUnhandledHotspotAsParameter: 0
   unhandledGive: {fileID: 0}
   recipes: []
-  documents: []
+  documents:
+  - ID: 0
+    title: Document Test 1
+    titleLineID: -1
+    rememberLastOpenPage: 0
+    carryOnStart: 0
+    texture: {fileID: 2800000, guid: 7723faad14ed141579fd599d1a4804b2, type: 3}
+    pages:
+    - lineID: -1
+      text: This is page one of my document test
+    binID: 0
   objectives: []
